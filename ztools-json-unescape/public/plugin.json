@@ -1,0 +1,35 @@
+{
+  "$schema": "../node_modules/@ztools-center/ztools-api-types/resource/ztools.schema.json",
+  "name": "ztools-json-unescape",
+  "title": "json反转义",
+  "description": "",
+  "author": "",
+  "version": "1.0.0",
+  "main": "index.html",
+  "preload": "preload/services.js",
+  "logo": "logo.png",
+  "development": {
+    "main": "http://localhost:5173"
+  },
+  "features": [
+    {
+      "code": "unescape",
+      "explain": "json反转义",
+      "cmds": [
+        "json",
+        {
+          "type": "over",
+          "label": "json反转义",
+          "exclude": "/xxx/",
+          "minLength": 1,
+          "maxLength": 500
+        }
+      ]
+    }
+  ],
+  "platform": [
+    "darwin",
+    "win32",
+    "linux"
+  ]
+}
