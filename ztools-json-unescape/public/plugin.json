@@ -22,7 +22,7 @@
           "label": "json反转义",
           "exclude": "/xxx/",
           "minLength": 1,
-          "maxLength": 500
+          "maxLength": 1000000000000000
         }
       ]
     }
