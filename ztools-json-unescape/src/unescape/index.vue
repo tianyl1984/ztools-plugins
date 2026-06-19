@@ -103,9 +103,17 @@ pre {
   margin: 0;
   padding: 10px;
   background-color: #f5f5f5;
+  color: #333;
   border-radius: 4px;
   overflow-x: auto;
   white-space: pre-wrap;
   word-wrap: break-word;
+}
+
+@media (prefers-color-scheme: dark) {
+  pre {
+    background-color: transparent;
+    color: #e6e6e6;
+  }
 }
 </style>
